@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TaxiApp</string>
+    <string name="welcome">Добро пожловать</string>
+    <string name="sign_in">Войти</string>
+    <string name="car_name">Мерседес</string>
+    <string name="add_car_name">Введите название машины:</string>
+    <string name="add_speed_car">Введите скорость машины:</string>
+    <string name="add_car_sale">Введите стоимость машины:</string>
+    <string name="low_class">Низкий класс</string>
+    <string name="medium_class">Средний класс</string>
+    <string name="high_class">Бизнес класс</string>
+    <string name="button_save">Сохранить</string>
+</resources>

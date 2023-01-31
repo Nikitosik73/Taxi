@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".view.AddTaxiNoteActivity">
+
+    <EditText
+        android:id="@+id/editTextTitleCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textCapWords"
+        android:hint="@string/add_car_name"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextSaleCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/add_car_sale"
+        android:layout_margin="20dp"/>
+
+    <EditText
+        android:id="@+id/editTextSpeedCar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/add_speed_car"
+        android:layout_margin="20dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <RadioButton
+            android:id="@+id/radioButtonLowCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/low_class"
+            android:textColor="@color/white"
+            android:background="@color/green"
+            android:fontFamily="@font/inter_black"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonMediumCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medium_class"
+            android:textColor="@color/white"
+            android:background="@color/orange"
+            android:fontFamily="@font/inter_black"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonHighCar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/high_class"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:fontFamily="@font/inter_black"/>
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_save"
+        android:fontFamily="@font/inter_black"
+        android:background="@drawable/btn_bg"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
