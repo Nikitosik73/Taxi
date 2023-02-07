@@ -7,6 +7,8 @@ import androidx.room.Query;
 
 import java.util.List;
 
+import io.reactivex.rxjava3.core.Completable;
+
 @Dao
 public interface CarNoteDao {
 
@@ -14,8 +16,8 @@ public interface CarNoteDao {
     LiveData<List<CarNote>> getCarNotes();
 
     @Insert
-    void add(CarNote carNote);
+    Completable add(CarNote carNote);
 
     @Query("delete from carNote where id = :id")
-    void remove(int id);
+    Completable remove(int id);
 }

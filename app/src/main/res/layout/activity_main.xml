@@ -29,15 +29,23 @@
         android:padding="8dp"
         android:text="@string/welcome"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/buttonStart"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/sign_in"
+        android:textColor="@color/blue"
         android:fontFamily="@font/inter_black"
         android:background="@drawable/btn_bg"
         android:layout_marginTop="20dp"
         android:layout_marginEnd="50dp"
         android:layout_marginStart="50dp"/>
+
+<!--    <androidx.appcompat.widget.Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:background="@drawable/tol_btn"-->
+<!--        android:layout_marginEnd="50dp"-->
+<!--        android:layout_marginStart="50dp"/>-->
 
 </LinearLayout>
